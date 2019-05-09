@@ -7,6 +7,8 @@ Some of the steps are in the file commands.sh, althought this was not made for e
 
 to connect via ssh use ssh -i (the key passed on comment) -p 2200 grader@3.214.129.242
 
+senha: graderudacity
+
 Visit the static ip address http://3.214.129.242/ or to see the project.
 
 ## the server configurations
