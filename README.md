@@ -9,7 +9,7 @@ to connect via ssh use ssh -i (the key passed on comment) -p 2200 grader@3.214.1
 
 senha: graderudacity
 
-Visit the static ip address http://3.214.129.242/ or to see the project.
+Visit the address http://3.214.129.242.xip.io/  to see the project.
 
 ## the server configurations
 
@@ -37,3 +37,9 @@ Visit the static ip address http://3.214.129.242/ or to see the project.
 - changed application.py to __init__.py
 - changed permissions for /var/www
 - restarted apache2, ssh
+
+## some useful links and tutorials I used to build this project
+
+- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+- http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/
+- https://www.a2hosting.com/kb/getting-started-guide/accessing-your-account/changing-the-ssh-server-port-number

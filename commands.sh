@@ -67,6 +67,8 @@ sudo -u postgres psql
 create database udacity_catalog;
 create user catalog with encrypted password 'catalogudacity';
 grant all privileges on database udacity_catalog to catalog;
+ALTER ROLE catalog CREATEDB;
+sudo adduser catalog
 
 cd /var/html/
 git clone https://github.com/marcelopcolombo/udacity_catalog_items.git
