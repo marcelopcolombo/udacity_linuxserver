@@ -1,7 +1,7 @@
 #Atualizar pacotes instalados
 sudo apt-get update
 sudo apt-get upgrade
-
+sudo apt-get dist-upgrade
 #Criar conta grader
 sudo apt-get install finger
 sudo adduser grader (pass graderudacity)
